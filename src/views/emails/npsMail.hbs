@@ -1,0 +1,629 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>  
+        <title>Exemple email</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <style type="text/css">
+          @media (prefers-color-scheme: no-preference) and (-ms-high-contrast)  {
+
+/* OBLIGATORY EMAIL STYLES */
+#outlook a{padding:0;}
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;}                
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;}
+img{-ms-interpolation-mode:bicubic;}
+body{margin:0; padding:0;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+table{border-collapse:collapse !important;}
+table td { border-collapse: collapse !important;}
+p {margin: 1em 0;}
+@-ms-viewport{ width: device-width;}
+body{background:rgb(245, 245, 245) !important; color:rgb(65, 65, 65) !important;height:100% !important; margin:0; padding:0; width:100% !important;}
+
+/* CLIENT-SPECIFIC STYLES 
+body, table, td, a, span{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}  Prevent WebKit and Windows mobile changing default text sizes */
+
+img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+/* RESET STYLES */
+img, a{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; outline: 0;}
+a{overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; word-break: break-all; word-break: break-word; -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto;}
+table{border-collapse: collapse !important;}
+body{height: 100% !important; margin: 0 !important; padding: 0px !important; width: 100% !important;}
+
+/* BLUE LINKS */
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+.hide {display:none !important;}
+h1 {
+    text-transform: uppercase!important;
+}
+
+/* NO PADDING FORCED */
+.last-no-padding {
+    padding: 0!important;
+}
+.no-padding-top {
+    padding-top: 0!important;
+}
+u + #body a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+}
+#footer-light a, #footer-white a, #footer-grey a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 480px) {
+   body {
+    background:rgb(245, 245, 245) !important; color:rgb(65, 65, 65) !important;
+  }
+    .hide {display:none !important;}
+
+    /* ALLOWS FOR FLUID TABLES */
+    .wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .img-max {
+        width: 100%!important;
+        max-width: 100%!important;
+        height: auto;
+    }
+    /* LOGO PAN HEADER */
+    .logo-pan {
+        padding: 24px 0px!important;
+    }
+    .logo-pan img {
+        margin: 0 auto !important;
+    }
+
+    .logo-small {
+        padding: 0px 0 96px 24px !important;
+    }
+    /* USE THESE CLASSES TO HIDE OR BLOCK CONTENT ON MOBILE */
+
+    .mobile-block {
+        display: block!important;
+        width: 100%!important;
+        max-width: 100%!important;
+        height: auto!important;
+    }                
+    .mobile-hide {
+        display: none!important;
+    }
+    /* FULL-WIDTH TABLES */
+    .responsive-table {
+        width: 100% !important;
+    }
+    .img-columns {
+        width: 30% !important;
+    }
+    .img-columns img {
+        width: 56px!important;
+    }
+    .content-itens {
+        height: auto!important;
+        vertical-align: top;
+    }
+    .content-itens img {
+        width: 48px;
+        height: 48px;
+    }    
+    .align-text-list {height: 72px!important; vertical-align: middle!important;}
+    .content-itens-txt {
+       height: 48px;
+    }
+    .txt-columns {
+        width: 70% !important;
+    }
+    .txt-columns h4 {
+        padding: 0!important;
+    }
+    /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+    .no-padding {
+        padding: 0px 0px 0px 0px!important;
+    }
+    .no-v-padding {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .v-padding {
+        padding: 0px 24px 48px 24px !important;
+    }                
+    .section-padding-48 {
+        padding: 0px 24px 24px 24px!important;
+    }
+    .section-padding-24 {
+        padding: 0px 24px 24px 24px!important;
+    }
+    .section-padding-0 {
+        padding: 0px 0px 24px 0px!important;
+    }
+    .section-padding-right-24 {
+        padding: 0px 24px 24px 0px!important;
+    }
+    .section-padding-left-24 {
+        padding: 0px 0px 24px 24px!important;
+    }
+    .padding-bottom {
+        padding: 0px 0 24px 0!important;
+    }
+    .padding-bottom-48 {
+        padding: 0px 0 24px 0!important;
+    }
+    .section-padding-48-with-top {
+        padding: 25px 24px 24px 24px!important;
+    }
+    .padding-main-text {
+        padding-top: 24px !important;
+    }
+    .logo-pan-footer {
+        padding: 24px 0 24px 24px!important;
+    } 
+    .social {
+        padding: 24px 24px 0 24px !important;
+    }
+    .social p {
+        padding-bottom: 24px !important;
+        margin: 0!important;
+    }
+    .border-dotted {
+        margin: 0 0 8px 0!important;
+        border-bottom: 1px dotted #dddddd!important;
+    }
+    .border-dotted h4 {
+        padding: 0px 0 10px 0!important;
+    }
+    /* ADJUST TEXT ON MOBILE */
+    h1 {
+        font-size: 24px!important;
+        line-height: 32px!important;
+        margin-top: 24px!important;
+    }
+    h2 {
+        font-size: 24px!important;
+        line-height: 32px!important;
+    }
+    h3 {
+        font-size: 20px!important;
+        line-height: 28px!important;
+    }
+    h4 {
+        font-size: 18px!important;
+        line-height: 26px!important;
+        font-family: Verdana, Arial, sans-serif!important;
+    }
+    .numerical-ordering {
+        font-size: 24px!important;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .text-title {
+        padding: 0px 24px 24px 24px!important;
+        line-height: 48px!important;
+    }
+    .small-text {
+        font-size: 12px!important;
+        line-height: 20px!important;
+    }
+    .align-left {
+        text-align: left!important;
+    }
+    .text-itens {
+        font-size: 14px!important;
+        margin: 0px 0px 24px 0px!important;
+    }
+    .text-itens a{
+        font-size: 14px!important;
+    }
+    .height-auto {
+        height: auto!important;
+    }
+    .background-title {
+        padding: 0px 0px 0px 24px!important;
+    }
+    .block-mobile {
+        display: block!important;
+        line-height: 36px!important;
+    }
+    /* ADJUST BUTTONS ON MOBILE */
+    .mobile-button-container {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+    .mobile-button {
+        border: 0 !important;
+        display: block !important;
+        margin: 0 auto !important;
+    } 
+    .img-cartoes {
+        padding: 48px 0 0 0 !important;
+    }    
+    .img-cartoes img{
+        width: 62%;
+        max-width: 62%;
+        margin: 0 auto;
+    }  
+    .step-icons {
+        padding: 0px 0 24px 0!important;
+    }
+    .your-note {
+        width: 30px!important;
+    }
+    .your-note a{
+        font-size: 14px!important;
+    }
+    .width-40 {
+        width: 38%!important;
+    }
+    .width-60 {
+        width: 58%!important;
+    }
+    .app-images-block {
+        padding: 0px 24px 0px 24px!important;
+    }
+    .app-images-mob {
+        padding: 0px 0px 12px 0px!important;
+    }
+    .txt-app-block {
+        padding: 24px 24px 24px 24px!important;
+    }
+    .txt-app {
+        font-size: 16px!important;
+        line-height: 20px!important;
+    }
+    .img-programa-mobile {
+        padding: 24px 0px 0px 0px;
+        height: auto!important;
+    }
+    .text-programa-mobile {
+        text-align: center!important;
+    }
+    .text-programa-mobile p {
+        border-left: none!important;
+    }
+    /* BLOCK SUMMARY */
+    .block-name {
+        padding: 12px!important;
+    }
+    .block-name h4 {
+        font-size: 16px!important;
+        line-height: 24px!important;
+    }
+    .block-name img {
+        width: 44px!important;
+    }  
+    .image-hide {
+        display:none!important; width:0px!important; height: 0px!important; overflow:hidden!important; line-height: 0px!important; font-size:0px!important;visibility: hidden;
+    }       
+    .image_mobile {
+        display:block!important; max-height: none !important; max-width:none !important; line-height: 1.5 !important;width:100%!important; height:auto!important;visibility: visible;
+    }  
+    .bg-image-none {
+      background-image: none!important;
+    }
+    .no-border {
+        border: none!important;
+    } 
+    .padding-top-none {padding: 0px 0px 0px 0px!important;}
+    *[class="hide-cellphone-img"] {
+        max-height:0!important; 
+        display:none!important; 
+        mso-hide:all!important; 
+        overflow:hidden!important;
+        font-size:0!important; 
+        visibility: hidden!important;
+    }  
+    u + #body a {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+    }
+    .td-spacing {
+       width: 12px!important;
+    }
+    .height-auto-mob {
+       height: auto!important;
+       padding: 0px 0px 24px 0px!important;
+    }
+    .no-width {
+       width: 0px!important;
+       max-width: 0px!important;
+    }
+    .no-padding-bottom {
+       padding: 48px 12px 0px 48px!important;
+    }
+    
+}    
+/* MOBILE STYLES */
+
+        </style>
+    </head>
+    <body id="body" bgcolor="#F5F5F5" text="#414141" style="background-color: #f5f5f5 !important; margin: 0px !important; padding: 0px !important;color:#414141;" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    
+      <!-- PREHEADER -->
+      <div style="display: none; max-height: 0px; overflow: hidden;word-wrap: break-word;">
+      {{!-- Aqui no Banco PAN sua opinião faz a diferença! --}}
+ &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+      </div>
+      
+        <!-- HEADER -->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
+            <tr>
+                <td width="600" bgcolor="#f5f5f5" align="center">
+                    <table border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table">
+                        <tr>
+                            <td align="center" width="600">
+                                <table bgcolor="ffffff" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="600">
+                                            <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#FFFFFF">
+                                                <!-- TITULO COM BACKGROUND -->
+                                                <tr>
+                                                    <td width="600">
+                                                        <table cellpadding="0" width="100%" cellspacing="0" border="0" height="80" width="100%" style="width:100% !important;max-width:600px !important;">
+                                                            <tr>
+                                                                <td align="left" height="80" style="width: 50%!important; vertical-align: middle; padding: 0px 0px 0px 24px;">
+                                                                     <a href="https://click.pan.com.vc/?qs=d2156005a193cd8ac00eb25547de0c863055f4d310d4183aae727663268d1d6fc39691dadc99d921c0d5df452c5a3c23bc6a4abfe6ccc68a" target="_blank"  title="Ir para o site do Banco PAN">
+
+                                                                         <img src="https://firebearstudio.com/blog/wp-content/uploads/2015/10/Node-e1443953851722.png" width="85" style="display: block!important;max-width: 85px!important;width: 85px;" alt="Banco PAN" border="0">
+                                                                       
+
+                                                                     </a>
+                                                                 </td>
+                                                                 <td align="right" height="80" style="width: 50%!important; vertical-align: middle; padding: 0px 24px 0px 0px;">
+                                                                     {{!-- <a href="https://view.pan.com.vc/?qs=4dd9607a55326eac6c46310057181eb6a29e7f5471887a6bc5fcaf7a2163aed75160ec1f1357fc0bef6088be7c727bca4d184e879397d493c870620e7dffd7fa959ce0b5c1201a45" target="_blank"  style="display: block; font-family: Verdana, Arial, sans-serif; color: #000000; font-size: 16px; text-decoration: none;" title="Abrir essa mensagem no seu navegador">
+                                                                        <span style="display: block; font-family: Verdana, Arial, sans-serif; color: #414141; font-size: 14px;">Abrir no navegador</span>
+                                                                    </a> --}}
+                                                                 </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>                                            
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table> 
+<!-- CONTENT -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td bgcolor="#F5F5F5" align="center">
+                    <table border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table">
+                        <tr>
+                            <td align="center">
+                                <table bgcolor="ffffff" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <!-- TPL TRANSACIONAL TOPO AZUL TRIANGULO LARANJA-->
+                                    <tr>
+                                        <td align="center" class="padding-bottom" style="padding: 0px 0px 48px 0px;">
+                                            <img class="img-max" data-assetsid="2274" src="https://image.pan.com.vc/lib/fe3b15707564047b7d1475/m/2/d96831f6-4cca-4cd5-b049-92a0822a2206.png" width="600" style="display: block;width: 100%;height: auto;" border="0" alt="">    
+                                        </td>
+                                    </tr> 
+                                    <!-- TEXTO TITULO -->
+                                    <tr>
+                                        <td class="text-title section-padding-48" style="padding: 0px 48px 48px 48px; font-size: 40px; line-height: 56px;font-family: Verdana, Arial, sans-serif;font-weight: bold;">
+                                            <h1 style="text-transform: uppercase;margin: 0; font-size: 40px; line-height: 56px;font-family: Verdana, Arial, sans-serif;font-weight: bold; color: #414141;">
+                                                    {{!-- TODO COLOCAR COR NA ULTIMA FRASE --}}
+                                                {{title}}
+                                                {{!-- VEM COM O PAN <br>MELHORAR AINDA MAIS SUA <span style="color: #00c6ff;">EXPERIÊNCIA!</span>  --}}
+                                            </h1>                                                                                
+                                        </td>
+                                    </tr>
+                                    
+                                    <!-- TEXTO CONTEUDO -->
+                                    <tr>
+                                        <td class="section-padding-48" style="padding: 0px 48px 24px 48px;">
+                                            <p style="font-family: Verdana, Arial, sans-serif;font-size: 16px;line-height: 24px;margin: 0;color: #414141;">
+                                                {{description}}
+                                            </p>
+                                        </td>
+                                    </tr>  
+                                    
+                                    <!-- QUIZ -->       
+                                    <tr>
+                                        <td class="section-padding-0" style="padding: 0px 48px 24px 48px;">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td class="your-note" width="30" height="30" align="center" style="width:30px;height:30px;background-color:#b82122;border:1px solid #ffffff;color:#ffffff;text-align:center;-webkit-text-size-adjust:none;mso-line-height-rule: exactly;line-height:20px;">
+                                                        <a href="{{link}}/1?u={{id}}" style="font-family: Verdana, Arial, sans-serif;font-size: 16px;color: #ffffff;"  target="_blank"><span style="display:block;"><b>0</b></span></a>
+                                                    </td>
+                                                    <td class="your-note" width="30" height="30" align="center" style="width:30px;height:30px;background-color:#cf2124;border:1px solid #ffffff;color:#ffffff;text-align:center;-webkit-text-size-adjust:none;mso-line-height-rule: exactly;line-height:20px;">
+                                                        <a href="{{link}}/2u={{id}}" style="font-family: Verdana, Arial, sans-serif;font-size: 16px;color: #ffffff;"  target="_blank"><span style="display:block;"><b>1</b></span></a>
+                                                    </td>
+                                                    <td class="your-note" width="30" height="30" align="center" style="width:30px;height:30px;background-color:#f25122;border:1px solid #ffffff;color:#ffffff;text-align:center;-webkit-text-size-adjust:none;mso-line-height-rule: exactly;line-height:20px;">
+                                                        <a href="{{link}}/3?u={{id}}" style="font-family: Verdana, Arial, sans-serif;font-size: 16px;color: #ffffff;"  target="_blank"><span style="display:block;"><b>2</b></span></a>
+                                                    </td>
+                                                    <td class="your-note" width="30" height="30" align="center" style="width:30px;height:30px;background-color:#ef7123;border:1px solid #ffffff;color:#ffffff;text-align:center;-webkit-text-size-adjust:none;mso-line-height-rule: exactly;line-height:20px;">
+                                                        <a href="{{link}}/4?u={{id}}" style="font-family: Verdana, Arial, sans-serif;font-size: 16px;color: #ffffff;"  target="_blank"><span style="display:block;"><b>3</b></span></a>
+                                                    </td>
+                                                    <td class="your-note" width="30" height="30" align="center" style="width:30px;height:30px;background-color:#fca724;border:1px solid #ffffff;color:#ffffff;text-align:center;-webkit-text-size-adjust:none;mso-line-height-rule: exactly;line-height:20px;">
+                                                        <a href="{{link}}/5?u={{id}}" style="font-family: Verdana, Arial, sans-serif;font-size: 16px;color: #ffffff;"  target="_blank"><span style="display:block;"><b>4</b></span></a>
+                                                    </td>
+                                                    <td class="your-note" width="30" height="30" align="center" style="width:30px;height:30px;background-color:#fcca26;border:1px solid #ffffff;color:#ffffff;text-align:center;-webkit-text-size-adjust:none;mso-line-height-rule: exactly;line-height:20px;">
+                                                        <a href="{{link}}/6?u={{id}}" style="font-family: Verdana, Arial, sans-serif;font-size: 16px;color: #ffffff;"  target="_blank"><span style="display:block;"><b>5</b></span></a>
+                                                    </td>
+                                                    <td class="your-note" width="30" height="30" align="center" style="width:30px;height:30px;background-color:#e9dd2a;border:1px solid #ffffff;color:#ffffff;text-align:center;-webkit-text-size-adjust:none;mso-line-height-rule: exactly;line-height:20px;">
+                                                        <a href="{{link}}/6?u={{id}}" style="font-family: Verdana, Arial, sans-serif;font-size: 16px;color: #ffffff;"  target="_blank"><span style="display:block;"><b>6</b></span></a>
+                                                    </td>
+                                                    <td class="your-note" width="30" height="30" align="center" style="width:30px;height:30px;background-color:#e4e537;border:1px solid #ffffff;color:#ffffff;text-align:center;-webkit-text-size-adjust:none;mso-line-height-rule: exactly;line-height:20px;">
+                                                        <a href="{{link}}/7?u={{id}}" style="font-family: Verdana, Arial, sans-serif;font-size: 16px;color: #ffffff;"  target="_blank"><span style="display:block;"><b>7</b></span></a>
+                                                    </td>
+                                                    <td class="your-note" width="30" height="30" align="center" style="width:30px;height:30px;background-color:#c2d73b;border:1px solid #ffffff;color:#ffffff;text-align:center;-webkit-text-size-adjust:none;mso-line-height-rule: exactly;line-height:20px;">
+                                                        <a href="{{link}}/8?u={{id}}" style="font-family: Verdana, Arial, sans-serif;font-size: 16px;color: #ffffff;"  target="_blank"><span style="display:block;"><b>8</b></span></a>
+                                                    </td>
+                                                    <td class="your-note" width="30" height="30" align="center" style="width:30px;height:30px;background-color:#b0d13b;border:1px solid #ffffff;color:#ffffff;text-align:center;-webkit-text-size-adjust:none;mso-line-height-rule: exactly;line-height:20px;">
+                                                        <a href="{{link}}/9?u={{id}}" style="font-family: Verdana, Arial, sans-serif;font-size: 16px;color: #ffffff;"  target="_blank"><span style="display:block;"><b>9</b></span></a>
+                                                    </td>
+                                                    <td class="your-note" width="30" height="30" align="center" style="width:30px;height:30px;background-color:#65b749;border:1px solid #ffffff;color:#ffffff;text-align:center;-webkit-text-size-adjust:none;mso-line-height-rule: exactly;line-height:20px;">
+                                                        <a href="{{link}}/10?u={{id}}" style="font-family: Verdana, Arial, sans-serif;font-size: 16px;color: #ffffff;overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; word-break: break-all; word-break: break-word; -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto;"  target="_blank"><span style="display:block;"><b>10</b></span></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>    
+
+                                    <!-- TEXTO CONTEUDO -->
+                                    <tr>
+                                        <td class="section-padding-48" style="padding: 0px 48px 24px 48px;">
+                                            <p style="font-family: Verdana, Arial, sans-serif;font-size: 16px;line-height: 24px;margin: 0;color: #414141;">
+                                                Valorizamos sua opinião pra melhorar cada vez mais os nossos serviços.        
+                                            </p>
+                                        </td>
+                                    </tr>                           
+
+                                    <!-- LOGO CONTENT FOOTER -->
+                                    <tr>
+                                        <td class="logo-pan-footer" style="padding: 0px 0px 24px 48px;">
+                                            <img data-assetsid="2249" src="https://firebearstudio.com/blog/wp-content/uploads/2015/10/Node-e1443953851722.png" width="29" height="48" alt="Logo do Banco PAN" style="display: block;" border="0">                              
+                                        </td>
+                                    </tr>
+                                    <!-- TPL TRANSACIONAL FOOTER LARANJA TRIANGULO AZUL-->
+                                    <tr>
+                                        <td align="center">
+                                            <img class="img-max" data-assetsid="2270" src="https://image.pan.com.vc/lib/fe3b15707564047b7d1475/m/2/43c8746b-a5f1-4906-bbf3-8f972d956939.png" width="600" style="display: block;width: 600px;height: auto;" border="0" alt="">                              
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>    
+<table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- FOOTER GREY -->
+        <table id="footer-grey" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td bgcolor="#f5f5f5" align="center">
+                    <table border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table">
+                        <tr>
+                            <td align="center">
+                                <table bgcolor="#f5f5f5" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                   <tr>
+                                        <td class="social" align="left" valign="bottom" style="padding: 48px 48px 48px 48px; background-color: #414141; border-collapse: collapse;" bgcolor="#414141;">
+                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                <tr>
+                                                    <td style="padding: 0px 0 24px 0;">
+                                                        <table border="0" cellspacing="0" cellpadding="0" width="170">
+                                                            <tr>
+                                                                <td width="42">
+                                                                    <a href="#"  title="Facebook" target="_blank">
+                                                                        <img data-assetsid="2259" src="http://image.pan.com.vc/lib/fe3b15707564047b7d1475/m/2/f1deb55d-865c-4a2b-b822-68f3325fc714.png" alt="Acesse a página no Facebook" width="24" height="24" style="display: block;" border="0">
+                                                                    </a>
+                                                                </td>
+                                                                <td width="42">
+                                                                    <a href="#"  title="Instagram" target="_blank">
+                                                                        <img data-assetsid="2257" src="http://image.pan.com.vc/lib/fe3b15707564047b7d1475/m/2/c77f3ec6-e242-4925-9838-f8f4a0f32099.png" width="24" height="24" alt="Acesse a página no Instagram" style="display: block;" border="0">
+                                                                    </a>
+                                                                </td>
+                                                                <td width="42">
+                                                                    <a href="#"  title="Youtube" target="_blank">
+                                                                        <img data-assetsid="2255" src="http://image.pan.com.vc/lib/fe3b15707564047b7d1475/m/2/e78a4bd9-b4f8-4f1c-abbd-afedd7bcb10a.png" width="24" height="24" alt="Acesse o canal no Youtube" style="display: block;" border="0">
+                                                                    </a>
+                                                                </td>
+                                                                <td width="42">
+                                                                    <a href="#" title="LinkedIn"  target="_blank">
+                                                                        <img data-assetsid="2256" src="http://image.pan.com.vc/lib/fe3b15707564047b7d1475/m/2/cbf3191f-ec43-48c0-9e63-4c1823667b6d.png" width="24" height="24" alt="Acesse a página no LinkedIn" style="display: block;" border="0">
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 24px 0px 0px 0px; border-top: 1px solid #cbcbcb; border-collapse: collapse;"> 
+                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                            <tr>
+                                                                <td style="display: block; font-family: Verdana, Arial, sans-serif; color: #bdbdbd; font-size: 14px; line-height: 20px;">
+                                                                    <p style="font-family: Verdana, Arial, sans-serif;font-size: 14px;line-height: 20px;color: #bdbdbd; margin: 0px 0px 24px 0px;">
+                                                                      <b style="color: #ffffff;">EMPRESA &copy; <span style="color:#ffffff !important;"><font color="ffffff">2021</font></span></b><br>
+                                                                      <span style="color:#bdbdbd !important;"><font color="bdbdbd">AV, Nº, COMPLEMENTAR , CIDADE - UF, CEP</font></span>
+                                                                    </p>
+                                                                    <p style="font-family: Verdana, Arial, sans-serif;font-size: 14px;line-height: 20px;color: #bdbdbd;margin: 0px 0px 24px 0px;">
+                                                                        Adicione <a target="_blank" alias="Adicionar aos contatos | footer" style="font-family: Verdana, Arial, sans-serif; color: #ffffff !important; font-size: 14px; text-decoration: underline!important;"><span style="color: #ffffff !important;"><font style="color: #ffffff !important;" color="ffffff"><b>reply@email.com.vc</b></font></span></a> aos seus contatos.<br>
+                                                                        Caso não queira mais receber nossos e-mails, 
+                                                                        <a target="_blank" href="#"  style="font-family: Verdana, Arial, sans-serif; color: #ffffff; font-size: 14px; text-decoration: underline!important;"><span style="color: #ffffff !important;"><font style="color: #ffffff !important;" color="ffffff"><b>descadastre-se.</b></font></span></a>
+                                                                        <br>
+                                                                    </p>
+                                                                    <p style="font-family: Verdana, Arial, sans-serif;font-size: 14px;line-height: 20px;color: #bdbdbd;margin: 0px 0px 0px 0px;">
+                                                                        <a class="block-mobile" target="_blank"  href="#" title="Banco PAN" style="font-family: Verdana, Arial, sans-serif; color: #ffffff; font-size: 14px; text-decoration: underline!important; line-height: 20px;"><b>www.empresa.com.br</b></a> 
+                                                                        <span class="mobile-hide" style="font-family: Verdana, Arial, sans-serif; color: #bdbdbd; font-size: 14px;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                                                                        <a class="block-mobile" target="_blank"  href="#" title="Política de Privacidade" style="font-family: Verdana, Arial, sans-serif; color: #ffffff; font-size: 14px; text-decoration: underline!important; line-height: 20px!important;"><b>Política de Privacidade</b></a> 
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr> 
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table> </td></tr></table>
+      <div style="font-size:0; line-height:0;display:none;">
+        <!-- **** Android 5 and 6 fix hack **** -->
+        <table cellpadding="0" cellspacing="0" border="0" class="hide">
+            <tr>
+                <td height="1" class="hide" style="min-width:700px; font-size:0px;line-height:0px;">
+                    <img height="1" src="spacer.gif" style="min-width: 700px; text-decoration: none; border: none; -ms-interpolation-mode: bicubic;">
+                </td>
+            </tr>
+        </table>
+        <!-- Android 5 and 6 fix hack -->
+    
+
+          <img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=M1qd-H52_sfmc_100006805_sha256&partner_uid=f25df8abdb393745cfaa12626b918a3ec7b4ac6a007a6c9dc0b35900ba259d4e" width=0 height=0 style="display:none" /> 
+<img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=M1qd-H52_sfmc_100006805_subid&partner_uid=79500953" width=0 height=0 style="display:none" /> 
+<img src="https://beacon.krxd.net/1x1_ad_impression.gif?confid=ufh3tzsy8&advertiserid=100006805&campaignid=0201050001_JOR_NPSGLOBAL_CP0" width=0 height=0 style="display:none;" />
+            <img src="https://click.pan.com.vc/open.aspx?ffcb10-fefa1675776103-fe591577766d07747015-fe3b15707564047b7d1475-ff971577-fe591379706404747017-ff601c7173&d=100142&bmt=0" width="1" height="1" alt="">
+              <img src="https://pixel.app.returnpath.net/pixel.gif?r=a0f176e947849ef81fdf525966198f4ead931ee9" width="1" height="1">
+              <img src="https://pixel.inbox.exacttarget.com/pixel.gif?r=a0f176e947849ef81fdf525966198f4ead931ee9" width="1" height="1">
+              <img src="https://pixel.app.returnpath.net/pixel.gif?r=a0f176e947849ef81fdf525966198f4ead931ee9&c=0201050001_JOR_NPSGLOBAL_CP0" width="1" height="1">
+            </custom>
+          </custom>
+        </div>
+
+<!-- TEMPLATE EMAIL BANCO PAN-->
+</body>
+</html>

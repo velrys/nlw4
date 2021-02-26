@@ -1,0 +1,10 @@
+{
+    "type":"sqlite",
+    "database":"./src/Database/database.sqlite",
+    "entities":["./src/models/**.ts"],
+    "logging":true,
+    "migrations":["./src/Database/migrations/**.ts"],
+    "cli":{
+        "migrationsDir":"./src/Database/migrations"
+    }
+}
